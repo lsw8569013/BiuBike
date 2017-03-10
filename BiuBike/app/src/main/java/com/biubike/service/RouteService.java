@@ -100,7 +100,6 @@ public class RouteService extends Service {
     }
 
     public int onStartCommand(Intent intent, int flags, int startId) {
-        Log.d("gaolei", "RouteService--------onStartCommand---------------");
         initLocation();//初始化LocationgClient
         initNotification();
         Utils.acquireWakeLock(this);
