@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BiuBike.iml" filepath="$PROJECT_DIR$/BiuBike.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BiuBike-BiuBike.iml" filepath="$PROJECT_DIR$/BiuBike-BiuBike.iml" group="BiuBike" />
+      <module fileurl="file://$PROJECT_DIR$/app/BiuBike-app.iml" filepath="$PROJECT_DIR$/app/BiuBike-app.iml" group="BiuBike/app" />
+      <module fileurl="file://$PROJECT_DIR$/mylibrary/BiuBike-mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/BiuBike-mylibrary.iml" group="BiuBike/mylibrary" />
+      <module fileurl="file://$PROJECT_DIR$/xrecyclerview/BiuBike-xrecyclerview.iml" filepath="$PROJECT_DIR$/xrecyclerview/BiuBike-xrecyclerview.iml" group="BiuBike/xrecyclerview" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylibrary/mylibrary.iml" filepath="$PROJECT_DIR$/mylibrary/mylibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/xrecyclerview/xrecyclerview.iml" filepath="$PROJECT_DIR$/xrecyclerview/xrecyclerview.iml" />
