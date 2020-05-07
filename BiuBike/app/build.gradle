@@ -7,7 +7,14 @@ android {
     }
 
     compileSdkVersion 25
-
+    signingConfigs {
+        release {
+            keyAlias 'biubike'
+            keyPassword 'bikeup'
+            storeFile file('biubike.jks')
+            storePassword 'bikeup'
+        }
+    }
     defaultConfig {
         applicationId "com.biubike"
         minSdkVersion 16
@@ -26,6 +33,9 @@ android {
         }
     }
     buildTypes {
+        debug {
+            signingConfig signingConfigs.release
+        }
         release {
             debuggable false
             zipAlignEnabled false
